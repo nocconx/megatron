@@ -1,0 +1,21 @@
+<?php
+
+require_once('Method.php');
+
+class LoginMethod extends Method {
+	protected function start() {
+		
+	}
+	
+	protected function finish() {
+		
+	}
+	
+	protected function isSuccess() {
+		return false;
+	}
+	
+	protected function isError() {
+		return false;
+	}
+}
