@@ -1,5 +1,7 @@
 <?php
 
+/* Setting default methods */
+
 require_once('Method.php');
 
 class LoginMethod extends Method {
@@ -12,7 +14,7 @@ class LoginMethod extends Method {
 	}
 	
 	protected function isSuccess() {
-		return false;
+		return true;
 	}
 	
 	protected function isError() {
