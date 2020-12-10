@@ -1,5 +1,9 @@
 <?php
 
+DEFINE DEFAULT_MAX_ATTEMPTS 5
+DEFINE DEFAULT_RETURN 0
+DEFINE DEFAULT_RESULT 0
+
 abstract class MethodAbstract {
 	protected $maxAttempts;
 	protected $return;
