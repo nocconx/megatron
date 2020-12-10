@@ -1,2 +1,2 @@
 # megatron
-Human Emulator Manage Service
+ORM for managing Human Emulator
