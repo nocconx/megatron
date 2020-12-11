@@ -25,44 +25,6 @@ interface MethodInterface {
 	
 	public function setUrl($url);
 	public function getUrl();
-	
-	/* Requires to be ommited public */
-	/*
-	abstract protected function start();
-	protected function _start();
-	
-	abstract protected function finish();
-	protected function _finish();
-	
-	abstract protected function run();
-	protected function _run();
-	
-	abstract protected function before();
-	protected function _before();
-	
-	abstract protected function after();
-	protected function _after();
-	
-	abstract protected function wait();
-	protected function _wait();
-	
-	abstract protected function onSuccess();
-	protected function _onSuccess();
-	
-	abstract protected function onError();
-	protected function _onError();
-	
-	abstract protected function isSuccess();
-	protected function _isSuccess();
-	
-	abstract protected function isError();
-	protected function _isError();
-	
-	private function check();
-	private function success();
-	private function error();
-	private function tick();
-	*/
 }
 
 abstract class MethodAbstract implements MethodInterface {
